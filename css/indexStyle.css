@@ -211,6 +211,11 @@ section.info-tags {
   flex-wrap: wrap;
 }
 
+.col-box{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
 .col-box {
   position: relative;
   width: 100%;
