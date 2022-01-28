@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: #6c757d;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 div.content {
@@ -79,13 +79,14 @@ div.pp {
 
 div.pp img {
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 
 div.about-me {
   width: 50%;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 p {
@@ -211,7 +212,7 @@ section.info-tags {
   flex-wrap: wrap;
 }
 
-.col-box{
+.col-box {
   flex: 0 0 50%;
   max-width: 50%;
 }
@@ -239,7 +240,6 @@ section.info-tags {
 }
 
 .progress-bar {
-  width: 90%;
   background: #27d363;
   box-shadow: none;
   font-size: 12px;
@@ -258,4 +258,10 @@ section.info-tags {
   font-size: 16px;
   font-weight: 600;
   color: #000;
+}
+
+.skills-page h2 {
+  color: #27d363;
+  font-size: 28px;
+  margin-bottom: 30px;
 }
